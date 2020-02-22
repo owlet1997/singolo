@@ -1,0 +1,267 @@
+@font-face{
+
+font-family: 'Lato Regular';
+
+src: url('assets/Lato-Regular.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'Lato Light';
+
+src: url('assets/Lato-Light.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'Lato Black';
+
+src: url('assets/Lato-Black.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'Lato Bold';
+
+src: url('assets/Lato-Bold.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+a {
+text-decoration: none;
+}
+html {
+max-width: 1020px;
+}
+body {
+margin: none;
+width: 1020px;
+}
+
+header {
+height: 90px;
+background-color: #2d303a;
+color: white;
+font-family: "Lato Regular";
+font-stretch: expanded;
+display: flex;
+justify-content: space-between;
+}
+
+header div {
+margin: auto 4%;
+}
+
+header > div.name {
+font-size: 25px;
+font-weight: 500;
+line-height: 6px;
+}
+
+header > div.menubar {
+font-size: 12px;
+font-weight: 700;
+line-height: 6px;
+}
+
+header > div.menubar{
+font-size: 12px;
+font-weight: 700;
+line-height: 6px;
+
+}
+
+sup{
+color:#f06c64;
+}
+
+li{
+display: inline;
+padding: 5px;
+}
+
+li:hover{
+display: inline;
+padding: 5px;
+color:#f06c64;
+}
+
+.header_line{
+height: 5px;
+background-color:#323746;
+}
+
+.slider {
+height: 600px;
+background-color:#f06c64;
+display: flex;
+justify-content: space-between;
+}
+
+.slider div {
+margin: auto;
+}
+
+.slider div.arrows{
+margin: auto 40px;
+}
+
+.slider div.arrows:hover{
+margin: auto 40px;
+}
+
+.slider_line{
+height: 5px;
+background-color:#ea676b;
+}
+
+footer {
+height: 500px;
+background-color: #f2f2f2;
+display: block;
+}
+
+.headname{
+font-size: 30px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato Black";
+font-weight: 900;
+text-align: left;
+padding-top: 65px;
+padding-left:40px;
+padding-right:40px;
+}
+
+.description {
+font-size: 17px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato Regular";
+font-weight: 300;
+text-align: left;
+padding-top: 20px;
+padding-left:40px;
+padding-right:40px;
+}
+
+
+.grid-container {
+  display: grid;  
+  grid-template-areas: "post-1 post-2 post-3"  
+                       "post-4 post-5 post-6"; 
+  grid-template-rows: repeat(2, max-content);
+  grid-template-columns: repeat(3, 1fr);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.service-1{
+grid-area: post-1;
+display: flex;
+justify-content: space-between;
+height: max-content;
+}
+.service-2{
+grid-area: post-2;
+display: flex;
+justify-content: space-between;
+height: max-content;
+}
+.service-3{
+grid-area: post-3;
+display: flex;
+justify-content: space-between;
+height: max-content;
+}
+.service-4{
+grid-area: post-4;
+display: flex;
+justify-content: space-between;
+height: max-content;
+}
+.service-5{
+grid-area: post-5;
+display: flex;
+justify-content: space-between;
+height: max-content;
+}
+.service-6{
+grid-area: post-6;
+display: flex;
+justify-content: space-between;
+height: max-content;
+}
+
+.service-1 div, .service-2 div, .service-3 div,
+.service-4 div, .service-5 div,.service-6 div{
+margin: auto 2%;
+}
+
+.service-1 div.inner, .service-2 div.inner, .service-3 div.inner,
+.service-4 div.inner, .service-5 div.inner,.service-6 div.inner{
+display:block;
+margin-left: 10%;
+margin-right: 5%;
+}
+
+.arrows:hover{
+background-color: rgb(89,48,58, 0.5);
+}
+
+.service-1 div.img-1, .service-2 div.img-1, .service-3 div.img-1,
+.service-4 div.img-1, .service-5 div.img-1,.service-6 div.img-1 {
+vertical-align: top;
+height: max-content;
+margin: 5% auto;
+}
+
+.inner h3{
+font-size: 18px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato Black";
+font-weight: 900;
+text-align: left;
+}
+
+.inner p{
+font-size: 12px;
+line-height: 22px;
+color: #767e9e;
+font-family: "Lato Regular";
+font-weight: 400;
+text-align: left;
+}
+
+.footer_line{
+height: 5px;
+background-color:#ffffff;
+}
+
+
+
+
